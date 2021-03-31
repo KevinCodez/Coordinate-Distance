@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A4EBD7D26141725002A251A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EBD7C26141725002A251A /* main.cpp */; };
+		0A4EBD892614175F002A251A /* City.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EBD862614175F002A251A /* City.cpp */; };
+		0A4EBD8A2614175F002A251A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EBD872614175F002A251A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		0A4EBD7926141725002A251A /* Coordinate Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Coordinate Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A4EBD7C26141725002A251A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A4EBD852614175F002A251A /* City.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = City.hpp; sourceTree = "<group>"; };
+		0A4EBD862614175F002A251A /* City.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = City.cpp; sourceTree = "<group>"; };
+		0A4EBD872614175F002A251A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A4EBD882614175F002A251A /* worldcities.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = worldcities.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		0A4EBD7B26141725002A251A /* Coordinate Distance */ = {
 			isa = PBXGroup;
 			children = (
-				0A4EBD7C26141725002A251A /* main.cpp */,
+				0A4EBD862614175F002A251A /* City.cpp */,
+				0A4EBD852614175F002A251A /* City.hpp */,
+				0A4EBD872614175F002A251A /* main.cpp */,
+				0A4EBD882614175F002A251A /* worldcities.csv */,
 			);
 			path = "Coordinate Distance";
 			sourceTree = "<group>";
@@ -118,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4EBD7D26141725002A251A /* main.cpp in Sources */,
+				0A4EBD8A2614175F002A251A /* main.cpp in Sources */,
+				0A4EBD892614175F002A251A /* City.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
